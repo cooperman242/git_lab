@@ -26,6 +26,10 @@ public class Main {
 			System.out.print(i + " ");
 		}
 		//TODO: sort the array and print out its contents
+		int[] sortedArray = InsertionSort.insertionSort(unsortedArray);
+		for (int i: sortedArray) {
+				System.out.print(i + " ");
+		}
 		
 		
 	}
